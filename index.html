@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Letsplay by ujjawalmisra</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Letsplay</h1>
+        <p class="header">Lightweight wrapper for building and managing play! framework projects</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/ujjawalmisra/letsplay/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/ujjawalmisra/letsplay/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/ujjawalmisra/letsplay">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/ujjawalmisra">ujjawalmisra</a></p>
+
+
+      </header>
+      <section>
+        <h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>Copyright (c) 2013-2014 Ujjawal Misra. See the LICENSE file for license rights and limitations (MIT).</p>
+
+<h2>
+<a name="configuring-projects" class="anchor" href="#configuring-projects"><span class="octicon octicon-link"></span></a>Configuring projects</h2>
+
+<p>Create a file <strong>$HOME/.letsplay.config</strong>. This file should contain the configuration of projects to be run using letsplay.
+A sample configuration in this file will be like:</p>
+
+<pre><code>services=/usr/local/play-2.1.0;dev;9001
+</code></pre>
+
+<p>You can refer the sample config file <em>sample.letsplay.config</em> to understand the configuration better.</p>
+
+<h2>
+<a name="starting-services" class="anchor" href="#starting-services"><span class="octicon octicon-link"></span></a>Starting services</h2>
+
+<p>First prepare (compile) the code:</p>
+
+<pre><code>./letsplay services prepare
+</code></pre>
+
+<p>Now start:</p>
+
+<pre><code>./letsplay services start
+</code></pre>
+
+<p>You can check project status:</p>
+
+<pre><code>./letsplay services status
+</code></pre>
+
+<p>You can stop the project:</p>
+
+<pre><code>./letsplay services stop
+</code></pre>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
