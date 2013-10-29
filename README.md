@@ -2,6 +2,10 @@
 
 Lightweight wrapper for building and managing play! framework projects. It aims at simplifying running of play! framework projects.
 
+## License
+
+Copyright (c) 2013 Ujjawal Misra. See the LICENSE file for license rights and limitations (MIT).
+
 
 ## Configuring projects
 
